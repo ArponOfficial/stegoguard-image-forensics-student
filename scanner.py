@@ -10,13 +10,7 @@ JPEG_END = b"\xff\xd9"
 GIF_SIGNATURES = [b"GIF87a", b"GIF89a"]
 GIF_END = b"\x3b"
 
-SUSPICIOUS_WORDS = [
-    b"hidden_message",
-    b"secret",
-    b"password",
-    b"token",
-    b"api_key",
-]
+b"confidential",
 
 
 def scan_image(path):
